@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Javascript</title>
+
+</head>
+<body>
+<!-- Html code -->
+<!-- <h1 style="text-align: center;" id="show"> Hello javascript</h1>
+<button onclick="fed()">Feedback</button>
+<input type="text" name="name" id="name">
+<button onclick="i()">hit</button>
+ -->
+
+
+ <!-- Conditional Statement -->
+<!-- <h1 style="text-align: center;" id="h1">HEllo...</h1> --> 
+
+<!-- time -->
+<button onclick="time()">Time</button>
+<h1 id="demo"></h1>
+<!-- Javascript code -->
+<script type="text/javascript"> 
+// 	function i() {
+// 		var v=document.getElementById('name').value;
+// 		document.write(v);
+// 	}
+// 	function fed() {
+// 	var name=prompt("Enter your name:");
+// 	document.getElementById('show').innerHTML=name;
+// }
+
+
+// Conditional Statement
+// var input=prompt("Enter Your Age: ")
+// 	if (input>=105)
+// 	 {
+// 	 	document.write("<h1>Expire,no you can Not Vote.</h1>")
+// 	 	document.getElementById('h1').innerHTML=input;
+
+// 	 }
+// 	 else if (input>=18) {
+// 	 	document.write("<h1>Yes you can Vote.</h1>")
+// 	 	document.getElementById('h1').innerHTML=input;
+// 	 }
+
+// 	 else{
+// 	 	document.write("<h1>Sorry, You Are Not Eligeible For Vote</h1>")
+// 	 	document.getElementById('h1').innerHTML=input;
+// 	 }
+
+
+// Array
+// var arr= new Array();
+// arr=["Shaikh","Arbaz","Ahmed"];
+// document.write(arr[1]);
+
+
+
+// for loop
+// for (var i = 1; i <= 10; i++) {
+// 	document.write(i+"<br>");
+// }
+
+// for (var i = 10; i >= 1; i--) {
+// 	document.write(i+"<br>");
+// }
+
+
+// While Loop
+	// var i=0;
+	// while(i<10){
+	// 	document.write(i);
+	// 	i++;
+	// }
+	// document.write("Arbaz");
+// Foreach loop
+	let name=["Shaikh ","Arbaz","Ahmed","Akhlaque","Ahmed"];
+	name.forEach(func);
+	function func(item,index) {
+		// if (name==2) {
+			// break;
+		// }
+		document.write(item+"="+index);
+
+	}
+
+	function time() {
+		document.getElementById('demo').innerHTML=Date();
+	}
+
+
+
+</script>
+</body>
+</html>
